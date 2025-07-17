@@ -13,3 +13,5 @@ createUser({
     email: "henry@henry.com",
     isActive: true,
 });
+
+export {};
