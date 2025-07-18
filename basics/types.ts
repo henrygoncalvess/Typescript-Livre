@@ -14,4 +14,19 @@ createUser({
     isActive: true,
 });
 
+// TYPE COMBINATIONS
+
+type CardNumber = {
+    cdNum: string;
+};
+
+type CardDate = {
+    cdDate: string;
+};
+
+type CardDetails = CardNumber &
+    CardDate & {
+        cvv: number;
+    };
+
 export {};
